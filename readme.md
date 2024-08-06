@@ -19,7 +19,7 @@ You: How do I get started with WSL?
 Me: It’s pretty straightforward. You just need to enable it on your Windows machine. Here’s a quick rundown:
 
 1. Open PowerShell as Administrator.
-2. Run the command: wsl --install. This will enable the necessary features, install the WSL 2 kernel, and download a default Linux distribution like Ubuntu.
+2. Run the command: `wsl --install`. This will enable the necessary features, install the WSL 2 kernel, and download a default Linux distribution like Ubuntu.
 3. Restart your computer if prompted.
 
 You: So, after I install it, how do I actually use it?
@@ -47,10 +47,10 @@ wsl --set-default-version 2
 To convert an existing distribution:
 
 ```ps
-wsl --set-version <distribution-name> 2
+wsl --set-version distribution-name 2
 ```
 
-You: That’s awesome. Any tips on what to try first with WSL?
+You: Any tips on what to try first with WSL?
 
 Me: Sure! Here are a few ideas:
 
