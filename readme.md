@@ -73,7 +73,8 @@ Me: Sure! Here are a few ideas:
 2.	In the PowerShell console, type ```wsl --install``` and press Enter:
  
  ![alt text](image-2.png)
- 
+
+
 3.	WSL will now start installing:
 
 
@@ -81,12 +82,12 @@ Me: Sure! Here are a few ideas:
  
 4.	Once complete, the system should ask you to reboot your computer. **Reboot your computer**.
 5.	After restarting, Ubuntu should open and continue installing. It will ask you to create a username (all lower case) and a password.
-    a.	If Ubuntu does *not* start, search for it in the menu and open it
-        i.	No Ubuntu listed? Go to step 6
+    1. If Ubuntu does *not* start, search for it in the menu and open it
+        1.	No Ubuntu listed? Go to step 6
 6.	After this is complete open PowerShell as Administrator
 7.	Check your WSL version is version 2 by typing `wsl --list --verbose` and press Enter
-    a.	If you get a message saying that WSL is installed but you have no distribution, type `wsl -–install -d ubuntu` and press Enter
-    b.	If your version is showing as version 1, type `wsl --set-version Ubuntu 2` and press Enter
+    1.	If you get a message saying that WSL is installed but you have no distribution, type `wsl -–install -d ubuntu` and press Enter
+    2.	If your version is showing as version 1, type `wsl --set-version Ubuntu 2` and press Enter
 8.	Now open the Ubuntu app from the Start menu:
  
 ![alt text](image-4.png)
